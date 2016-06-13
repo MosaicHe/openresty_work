@@ -1,0 +1,55 @@
+2016/06/09 00:14:25 [emerg] 5111#0: directive "include" is not terminated by ";" in /home/mosaic/openresty_work/conf/nginx.conf:12
+2016/06/09 00:15:18 [emerg] 5185#0: open() "/home/mosaic/openresty_work/conf/mime.types" failed (2: No such file or directory) in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:18:37 [alert] 5514#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:18
+2016/06/09 00:18:37 [notice] 5514#0: signal process started
+2016/06/09 00:18:47 [alert] 5515#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:18
+2016/06/09 00:31:00 [alert] 6093#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:19
+2016/06/09 00:31:00 [notice] 6093#0: signal process started
+2016/06/09 00:31:00 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:19
+2016/06/09 00:31:38 [alert] 6261#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:19
+2016/06/09 00:31:38 [notice] 6261#0: signal process started
+2016/06/09 00:31:38 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:19
+2016/06/09 00:37:07 [alert] 6623#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:11
+2016/06/09 00:37:07 [notice] 6623#0: signal process started
+2016/06/09 00:37:07 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:11
+2016/06/09 00:38:17 [alert] 6711#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:38:17 [notice] 6711#0: signal process started
+2016/06/09 00:38:17 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:40:46 [alert] 6943#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:40:46 [emerg] 6943#0: unexpected "}" in /home/mosaic/openresty_work/conf/nginx.conf:26
+2016/06/09 00:41:01 [alert] 6950#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:41:01 [emerg] 6950#0: unknown directive "ngx.say('hello')" in /home/mosaic/openresty_work/conf/nginx.conf:25
+2016/06/09 00:41:36 [alert] 7025#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:41:36 [notice] 7025#0: signal process started
+2016/06/09 00:41:36 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:41:41 [error] 7026#0: *34 "/home/mosaic/openresty_work/html/test_request/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test_request/ HTTP/1.1", host: "localhost:8080"
+2016/06/09 00:42:21 [error] 7026#0: *35 "/home/mosaic/openresty_work/html/test_request/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test_request/ HTTP/1.1", host: "localhost:8080"
+2016/06/09 00:43:50 [error] 7026#0: *38 "/home/mosaic/openresty_work/html/test_request/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /test_request/ HTTP/1.1", host: "127.0.0.1:8080"
+2016/06/09 00:45:31 [alert] 7515#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:45:31 [notice] 7515#0: signal process started
+2016/06/09 00:45:31 [alert] 5516#0: lua_code_cache is off; this will hurt performance in /home/mosaic/openresty_work/conf/nginx.conf:10
+2016/06/09 00:45:36 [error] 7516#0: *40 failed to load external Lua file "/home/mosaic/openresty_work/lua/test_request.lua": /home/mosaic/openresty_work/lua/test_request.lua:11: '=' expected near 'headers', client: 127.0.0.1, server: , request: "POST /lua_request/1/2?a=3&b=4 HTTP/1.1", host: "127.0.0.1:8080"
+2016/06/09 00:50:27 [error] 7516#0: *43 failed to load external Lua file "/home/mosaic/openresty_work/lua/test_request.lua": /home/mosaic/openresty_work/lua/test_request.lua:11: '=' expected near 'headers', client: 127.0.0.1, server: , request: "GET /lua_request/1/2/ HTTP/1.1", host: "localhost:8080"
+2016/06/09 00:52:29 [error] 7516#0: *44 failed to load external Lua file "/home/mosaic/openresty_work/lua/test_request.lua": /home/mosaic/openresty_work/lua/test_request.lua:11: '=' expected near 'headers', client: 127.0.0.1, server: , request: "GET /lua_request/1/2/?a=3 HTTP/1.1", host: "localhost:8080"
+2016/06/09 00:53:04 [error] 7516#0: *45 failed to load external Lua file "/home/mosaic/openresty_work/lua/test_request.lua": /home/mosaic/openresty_work/lua/test_request.lua:11: '=' expected near 'headers', client: 127.0.0.1, server: , request: "GET /lua_request/1/2/ HTTP/1.1", host: "localhost:8080"
+2016/06/14 00:09:53 [alert] 3944#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:14:22 [alert] 4100#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:14:22 [notice] 4100#0: signal process started
+2016/06/14 00:14:22 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:21:07 [alert] 4448#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:21:07 [notice] 4448#0: signal process started
+2016/06/14 00:21:07 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:25:16 [alert] 4671#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:25:16 [notice] 4671#0: signal process started
+2016/06/14 00:25:16 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:30:54 [alert] 4780#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:31:00 [alert] 4781#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:31:00 [notice] 4781#0: signal process started
+2016/06/14 00:31:00 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:33:31 [alert] 4957#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:33:31 [notice] 4957#0: signal process started
+2016/06/14 00:33:31 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:57:53 [alert] 5486#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:58:01 [alert] 5487#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
+2016/06/14 00:58:01 [notice] 5487#0: signal process started
+2016/06/14 00:58:01 [alert] 3945#0: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:10
